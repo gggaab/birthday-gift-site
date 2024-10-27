@@ -1,0 +1,90 @@
+body {
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(#5DE0F0, #F7A6F5);
+    color: aliceblue;
+    font-family: 'Black Han Sans', 'Orbitron';
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 60px black;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#howard {
+    width: 150px;
+    border: 10px solid #735CDD;
+    border-radius: 100px;
+}
+
+#birthday-age {
+    background-color: #735CDD;
+    padding: 5px 10px;
+    margin: 20px 0 10px;
+    border-radius: 5px;
+}
+
+#birthday-date {
+    background-color: #735CDD;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-img {
+    max-width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 5px solid #735CDD;
+    border-radius: 30px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+}
+
+#gift-happy:hover {
+    background-image: url(images/excited.gif);
+    background-size: cover;
+}
+
+#gift-react:hover {
+    background-image: url(images/shrek.gif);
+    background-size: cover;
+}
+
+#gift-description:hover {
+    background-image: url(images/ambitious.gif);
+    background-size: cover;
+}
+
+#gift-badass:hover {
+    background-image: url(images/walter.gif);
+    background-size: cover;
+}
+
+
+#gift-tribute {
+    height: 200px;
+}
+
+
+#gift-tribute:hover {
+    background-image: url(images/dap.gif);
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
